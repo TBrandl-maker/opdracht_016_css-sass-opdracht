@@ -1,0 +1,23 @@
+// variables
+
+$lightGreen: #c0eea9; 
+$mediumGreen: #97d279; 
+$standardPadding: 20px;
+
+// mixins
+
+@mixin section-text {
+    padding: $standardPadding;
+
+    &__text {
+        max-width: 700px;
+        text-align: center;
+        padding: $standardPadding;
+
+        p {
+            text-align: justify;
+            padding: $standardPadding;
+            line-height: 1.4em;
+        }
+    } 
+}
